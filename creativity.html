@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML and JavaScript</title>
+<link rel="stylesheet" href="gym.css">
+<header>
+    <nav class="horizontalNavigation clearfix">
+        <ul>
+           <li><a href="ABOUT.html">About Us</a></li>
+           <li><a href="Membership.html">Membership</a></li>
+           <li><a href="index.html">index</a></li>
+        </ul>
+</header>
+<script>
+var imgArray = new Array(4);
+var index = 0;
+function doBack()
+{
+    if (index > 0)
+{
+    document.slideshow2.src = "";
+
+    index--;  
+    document.slideshow.src = imgArray[index].src;
+}
+    return;
+}
+function doNext(){
+    if(index<2){
+        index++;
+        if(index==2){
+            document.slideshow2.src = imgArray[3].src;
+        }else{
+            document.slideshow2.src = "";
+        }
+        
+        document.slideshow.src = imgArray[index].src;
+    }
+    return;
+}
+function startup()
+{
+imgArray[0] = new Image;
+imgArray[0].src = "iron9.jpg";
+imgArray[1] = new Image;
+imgArray[1].src = "ironBiby_2.png";
+imgArray[2] = new Image;
+imgArray[2].src = "moringa.jpg";
+imgArray[3] = new Image;
+imgArray[3].src = "moringa.webp";
+return;
+}
+    
+</script>
+</head>
+<body onLoad = "startup()">
+    <div align = "center">
+    <h2>My JavaScript Slide Show</h2>
+    <p>
+        <image name="slideshow" src="iron9.jpg"></image>
+        <image name="slideshow2"></image>
+    </p>
+    <p>
+        <a href ="javascript:doBack()">Back</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="javascript:doNext()">Next</a>
+
+    </p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,106 @@
+#form_div{
+    background-color:  #7A1959;
+    height: 300px;
+    width: 500px;
+    color: white;
+    text-align: center;
+
+    
+}
+body {
+    
+    text-align: center;
+}
+nav.horizontalNavigation > ul > li {
+	width: 25%;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+ }
+ nav.horizontalNavigation a {
+	background-color: rgb(225, 186, 220);
+	display: block;
+	font-family: Champagne, cursive;
+	font-size: 1.4em;
+	line-height: 1.8em;
+	text-align: center;
+ }
+#table_div{
+    padding-top: 10%;
+}
+.image_membership{
+    width: 500px;
+    height: 350px;
+}
+#about_body{
+    background-color: #340B42;
+    color: white;
+}
+body{
+    background-color: #79A1AA;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navagation_bar{
+    height: 50px;
+    
+}
+#title_membership{
+    color: white;
+    position: absolute;
+    left: 20%;
+
+}
+#About_Us{
+    color: white;
+    
+    left: 20%;
+    background-color: gray;
+
+}
+#ABC_title{
+    color: white;
+    text-align: right;
+    position: absolute;
+    right: 20%;
+
+}
+#ABC_title2{
+    color: white;
+    text-align: right;
+    position: absolute;
+    right: 20%;
+    background-color: gray;
+
+}
+footer{
+    background-color: #9EBF40;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    
+    
+}
+.image_membership2{
+    width: 500px;
+    height: 300px;
+}
+
+#table1{
+    
+    margin: 0 auto;
+    border-spacing: 0;
+}
+#foot{
+    background-color: #9EBF40;
+    width: 990px;
+    font-size: center;
+    text-align: large;
+    color: white;
+    padding: 5px;
+    margin-left: 280px;
+}
+
